@@ -3,4 +3,6 @@ public Emp{
 	private String ename;
 	private String job;
 	private Double sal;
+	private String sex;
+	private String desc;
 }
