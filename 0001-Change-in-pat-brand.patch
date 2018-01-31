@@ -1,0 +1,39 @@
+From d100041fc93e4f596331ca024898b5ca7d2b83a2 Mon Sep 17 00:00:00 2001
+From: mldn <1009000235@qq.com>
+Date: Wed, 31 Jan 2018 16:18:00 +0800
+Subject: [PATCH] Change in pat brand
+
+---
+ Emp.java   | 2 ++
+ Hello.java | 3 +--
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/Emp.java b/Emp.java
+index 9ea61f5..0065732 100644
+--- a/Emp.java
++++ b/Emp.java
+@@ -3,4 +3,6 @@ public Emp{
+ 	private String ename;
+ 	private String job;
+ 	private Double sal;
++	private String sex;
++	private String desc;
+ }
+\ No newline at end of file
+diff --git a/Hello.java b/Hello.java
+index 2878d5e..88a0524 100644
+--- a/Hello.java
++++ b/Hello.java
+@@ -6,7 +6,6 @@ public class Hello{
+ 		System.out.println("Hello GIT");
+ 		System.out.println("Hello git");
+ 		System.out.println("Hello gits");
+-		System.out.println("conflicts");
+-		System.out.println("No-ff merge");
++		System.out.println("bug branch");
+ 	}
+ }
+\ No newline at end of file
+-- 
+2.9.0.windows.1
+
