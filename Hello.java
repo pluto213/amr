@@ -7,6 +7,5 @@ public class Hello{
 		System.out.println("Hello git");
 		System.out.println("Hello gits");
 		System.out.println("conflicts");
-		System.out.println("test-1");
 	}
 }
