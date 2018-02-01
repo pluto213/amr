@@ -3,4 +3,5 @@ import java.io.*;
 public class Admin implements Serializable{
 	private String aid;
 	private String password;
+	private String role;
 }
